@@ -22,7 +22,7 @@ social:
   
   
   - title: github
-    url: https://github.com/coprhd
+    url: https://github.com/CoprHD/coprhd-controller
 
 # Build settings
 markdown: kramdown
