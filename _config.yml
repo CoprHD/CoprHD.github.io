@@ -17,9 +17,6 @@ social:
   - title: twitter
     url: https://twitter.com/coprhd
   
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/coprhd
-  
   
   - title: github
     url: https://github.com/CoprHD/coprhd-controller
