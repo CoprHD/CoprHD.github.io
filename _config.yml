@@ -18,8 +18,11 @@ social:
     url: https://twitter.com/coprhd
   
   
-  - title: github
+  - title: github code image (read only)
     url: https://github.com/CoprHD/coprhd-controller
+
+  - title: development code image
+    url: https://review.coprhd.org/scm/ch/coprhd-controller.git
 
 # Build settings
 markdown: kramdown
