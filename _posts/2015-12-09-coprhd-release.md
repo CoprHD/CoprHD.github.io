@@ -26,9 +26,10 @@ surface in future CoprHD releases.
 ### New Projects
 
 We are also announcing 2 new complementary projects in the CoprHD community:
+
 * <a href="https://coprhd.atlassian.net/wiki/display/COP/Block+Storage+API+For+OpenStack">Storage orchestration for OpenStack</a>
 * <a href="https://coprhd.atlassian.net/wiki/display/COP/Southbound+SDK+for+Storage+Device+Drivers">Southbound SDK for pluggable storage</a>
-** <a href="https://coprhd.atlassian.net/wiki/display/COP/ScaleIO+Storage+Driver+Based+on+Southbound+SDK">ScaleIO plugin using new SDK</a> - part of the SDK project
+  * <a href="https://coprhd.atlassian.net/wiki/display/COP/ScaleIO+Storage+Driver+Based+on+Southbound+SDK">ScaleIO plugin using new SDK</a> - part of the SDK project
 
 EMC is leading a set of projects to provide CoprHD integration for OpenStack. Intel is contributing to this effort by leading a project to integrate Keystone with CoprHD and allow the use of the Cinder API and/or the CoprHD API to provide block storage services for OpenStack. This feature will help organizations maintain interoperability with OpenStack services while providing a single storage management interface with CoprHD. You can find the first code drop in its
 <a href="https://review.coprhd.org/projects/CH/repos/coprhd-controller/browse?at=refs%2Fheads%2Ffeature-block-service-cinderapi">respective feature branch</a>.
@@ -59,20 +60,20 @@ CoprHD is open source storage automation software. It centralizes and transforms
 
 * Ingestion of VPLEX Environments. The volume ingestion framework for VPLEX has been enhanced to enable ingestion of the entire volume structure (virtual volume and component storage volumes) on backend arrays. Storage administrators can take control of all on-going volume management features on ingested volumes on VMAX, VNX, XtremIO, and VMAX3 backend storage arrays with both local and distributed configurations.
 * VPLEX Automation. VPLEX usage in an OpenStack ecosystem is further strengthened by ViPR Controller's automation of VPLEX to interoperate with third party block storage arrays discovered through OpenStack Cinder. Support for VPLEX Local or Metro configurations enables administrators to:
-** Create/delete virtual volumes(s)
-** Establish zoning between VPLEX and array
-** Export VPLEX virtual volumes
-** Manage snapshots for VPLEX volumes
-** Perform data migration across virtual storage pools / arrays
+  * Create/delete virtual volumes(s)
+  * Establish zoning between VPLEX and array
+  * Export VPLEX virtual volumes
+  * Manage snapshots for VPLEX volumes
+  * Perform data migration across virtual storage pools / arrays
 *	EMC Elastic Cloud Storage (ECS) Support. Storage administrators now have the ability to discover and provision EMC ECS object storage from ViPR Controller. This initial support lays the foundation for future object storage functionality enhancements in future releases and enables administrators to:
-** Discover and monitor object storage pools and replication groups
-** Create object virtual pools and map projects
-** Create tenants (and associated namespace)
-** Perform bucket operations (create, delete, and edit buckets)
+  * Discover and monitor object storage pools and replication groups
+  * Create object virtual pools and map projects
+  * Create tenants (and associated namespace)
+  * Perform bucket operations (create, delete, and edit buckets)
 * XtremIO Release 4.0 Support. CoprHD Controller supports functionality introduced in the EMC XtremIO 4.0 version for the following features:
-** Single XtremIO Management Server (XMS) managing multiple XtremIO clusters.
-** Consistency Group (CG) operations
-** Snapshot restore and refresh
-** Read-only snapshots
+  * Single XtremIO Management Server (XMS) managing multiple XtremIO clusters.
+  * Consistency Group (CG) operations
+  * Snapshot restore and refresh
+  * Read-only snapshots
 * ScaleIO API Support. For ScaleIO 1.32 and onwards, all existing functionalities will be supported via the ScaleIO REST based API. CoprHD Controller will connect via the ScaleIO Gateway Storage Provider to discover ScaleIO systems.
 * NAS Performance Based Placement. For VNX arrays and FileSystems (FS) only, CoprHD Controller supports the discovery of Virtual Data Movers(VDMs) and their characteristics as virtual NAS (VNAS) servers, as well as, their assignment to projects. To fully utilize the array's capabilities, CoprHD Controller intelligently selects the VDM based on load factor when provisioning for parameters such as; number of storage objects, maximum storage capacity, threshold percentage.
