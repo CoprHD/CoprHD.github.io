@@ -127,11 +127,13 @@
           </div>
 	<h3>News</h3>
 	<div class="list-group">
+	  <ul class="posts">
 
 	  {% for post in site.posts %}
     		<a href="{{ post.url }}" class="list-group-item active"  title="{{ post.title }}">{{ post.title }}</a>
   	  {% endfor %}
 
+	  </ul>
 	</div>
           <h3>Upcoming Events</h3>
           <div class="list-group">
