@@ -28,7 +28,7 @@ surface in future CoprHD releases.
 We are also announcing 2 new complementary projects in the CoprHD community:
 * <a href="https://coprhd.atlassian.net/wiki/display/COP/Block+Storage+API+For+OpenStack">Storage orchestration for OpenStack</a>
 * <a href="https://coprhd.atlassian.net/wiki/display/COP/Southbound+SDK+for+Storage+Device+Drivers">Southbound SDK for pluggable storage</a>
-** <a href="https://coprhd.atlassian.net/wiki/display/COP/ScaleIO+Storage+Driver+Based+on+Southbound+SDK">ScaleIO plugin using new SDK</a> - part of the SDK project
+  * <a href="https://coprhd.atlassian.net/wiki/display/COP/ScaleIO+Storage+Driver+Based+on+Southbound+SDK">ScaleIO plugin using new SDK</a> - part of the SDK project
 
 EMC is leading a set of projects to provide CoprHD integration for OpenStack. Intel is contributing to this effort by leading a project to integrate Keystone with CoprHD and allow the use of the Cinder API and/or the CoprHD API to provide block storage services for OpenStack. This feature will help organizations maintain interoperability with OpenStack services while providing a single storage management interface with CoprHD. You can find the first code drop in its
 <a href="https://review.coprhd.org/projects/CH/repos/coprhd-controller/browse?at=refs%2Fheads%2Ffeature-block-service-cinderapi">respective feature branch</a>.
