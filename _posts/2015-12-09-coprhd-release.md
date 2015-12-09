@@ -27,7 +27,7 @@ surface in future CoprHD releases.
 
 We are also announcing 2 new complementary projects in the CoprHD community:
 
-* <a href="https://coprhd.atlassian.net/wiki/display/COP/Block+Storage+API+For+OpenStack">Storage orchestration for OpenStack</a>
+* <a href="https://coprhd.atlassian.net/wiki/display/COP/Storage+Orchestration+For+OpenStack">Storage orchestration for OpenStack</a>
 * <a href="https://coprhd.atlassian.net/wiki/display/COP/Southbound+SDK+for+Storage+Device+Drivers">Southbound SDK for pluggable storage</a>
   * <a href="https://coprhd.atlassian.net/wiki/display/COP/ScaleIO+Storage+Driver+Based+on+Southbound+SDK">ScaleIO plugin using new SDK</a> - part of the SDK project
 
