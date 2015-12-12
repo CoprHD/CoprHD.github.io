@@ -39,7 +39,7 @@ The first plugin under development using the southbound SDK is the <a href="http
 
 ### Live-streamed town hall December 9, 4pm EST/1pm PST
 
-Live-streamed event: EMC, Intel and Oregon State will produce a <a href="https://www.youtube.com/watch?v=VslEYcUS_8s" target="_blank">live-streamed event on December 9</a> at 4pm Eastern/1pm Pacific to present the new capabilities of CoprHD 2.4, the new projects, and a preview of what’s on the roadmap for the next development cycle.
+Live-streamed event: EMC, Intel and Oregon State will produce a <a href="https://youtu.be/Vkhcxd2POs4" target="_blank">live-streamed event on December 9</a> at 4pm Eastern/1pm Pacific to present the new capabilities of CoprHD 2.4, the new projects, and a preview of what’s on the roadmap for the next development cycle.
 
 ### CoprHD Governance and License
 
