@@ -12,7 +12,7 @@ We had a great response to last weeks [announcements and updates](/blog/2015/12/
 Many thanks to Keith Lutz, one of our fine colleagues from Intel, for compiling this.
 
 News Roundup
-============
+------------
 
 [Stockhouse](http://www.stockhouse.com/news/press-releases/2015/12/08/emc-accelerates-shift-to-open-source)
 
@@ -58,7 +58,7 @@ Most Active Eyes Catching Stocks- JD.com, Inc. (NASDAQ:JD), EMC Corporation (NYS
 EMC Corporation (NYSE:EMC) EMC Corporation (EMC) reported that RackHD, a platform-agnostic technology stack deinked to solve an industry-wide challenge of managing and orchestrating server and network resources at hyper-scale. Additionally, the CoprHD™ Community reported the release of CoprHD 2.4 and new alliances with Intel and Oregon State University, marking a important community milestone as CoprHD grows beyond a single-vendor open source project.
 
 YouTube Sensation
-=================
+-----------------
 
 In addition to the news coverage, we also had our live streamed community show, which you can
 [relive on YouTube!](https://www.youtube.com/watch?v=Vkhcxd2POs4)
