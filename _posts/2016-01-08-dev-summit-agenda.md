@@ -65,3 +65,5 @@ During the first two days, we will review the current roadmap, discuss [new feat
 Can't be there? No problem - just follow along below:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/ww8c2Do-yWI" frameborder="0" allowfullscreen></iframe>
+
+Or just [follow this link](https://plus.google.com/events/cekeg4dnh82qq33h60nj8e8sau4) to the event page. 
