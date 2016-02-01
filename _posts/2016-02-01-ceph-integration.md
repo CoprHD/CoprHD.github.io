@@ -24,6 +24,8 @@ So take a look and let us know how it works for you. If you need a primer on get
 
 If you need assistance, check out the [CoprHD Google Group](https://groups.google.com/forum/?hl=en#!forum/coprhd). 
 
+* [Check out the ceph-review branch](https://github.com/cloudscaling/coprhd-controller/tree/ceph-review)
+
 Happy hacking!
 
 -John Mark
