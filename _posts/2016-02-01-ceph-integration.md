@@ -7,7 +7,9 @@ date: 2016-02-01
 Another Storage Integration: Ceph 
 ---------------------------------
 
-![Ceph](https://avatars2.githubusercontent.com/u/1015767 "yay Ceph") When we first announced that we were open sourcing CoprHD, lots of people were skeptical, thinking we weren't serious about a real
+![Ceph](https://avatars2.githubusercontent.com/u/1015767 "yay Ceph") 
+
+When we first announced that we were open sourcing CoprHD, lots of people were skeptical, thinking we weren't serious about a real
 open source community or project. The proof, they said, would be in the proverbial pudding: would we support non-EMC storage systems?
 Would the CoprHD team support contributions from EMC competitors? 
 
