@@ -7,7 +7,7 @@ date: 2015-12-14
 Lots of News Reports on CoprHD Release!
 ---------------------------------------
 
-We had a great response to last weeks [announcements and updates](/blog/2015/12/08/coprhd-release/)!
+We had a great response to last weeks [announcements and updates](/blog/2015/12/08/coprhd-release)!
 
 Many thanks to Keith Lutz, one of our fine colleagues from Intel, for compiling this.
 
