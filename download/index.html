@@ -14,33 +14,35 @@ published: true
 	<p>The most recent release of CoprHD is 2.4.
 
 <h2>Download an appliance</h2>
-<p>Appliances are brand new - please report issues on the <a href="https://groups.google.com/forum/?hl=en#!forum/coprhd" target="_blank">Google Group</a>
+<p>This is the easiest and fastest way to get CoprHD up and running. This is currently only working on VMWare. VirtualBox compatible
+appliances are coming soon. Appliances are brand new - please report issues on the <a href="https://groups.google.com/forum/?hl=en#!forum/coprhd" target="_blank">Google Group</a>
 	or <a href="https://coprhd.atlassian.net/secure/Dashboard.jspa" target="_blank">Jira</a>.
 	<ul>
 		<li><a href="https://build.coprhd.org/jenkins/userContent/releases/CoprHD-2.4.0.0.4/">CoprHD 2.4 OVF</a></li>
 	</ul>
 
 <h2>Vagrant Setup</h2>
-<p>Chrish Banck ([GitHub user vchrisb](https://github.com/vchrisb)) created an easy-to-use Vagrant-based setup for CoprHD. Take a look below:
+<p>Christopher Banck ([GitHub user vchrisb](https://github.com/vchrisb)) created an easy-to-use Vagrant-based setup for CoprHD. Take a look below:
 	<ul>
 		<li><a href="https://github.com/vchrisb/vagrant-coprhd" target="_blank">CoprHD Vagrant script</a></li>
 	</ul>
 
 <p>Intel engineer Curt Bruns added a ScaleIO configuration to the above. And if you want to get really fancy, he has another branch that includes DevStack.
 	<ul>
+		<li><a href="https://coprhd.atlassian.net/wiki/display/COP/CoprHD+Deployment+with+Vagrant" target="_blank">Wiki page primer</a></li>  
 		<li><a href="https://github.com/curtbruns/coprhd_aio" target="_blank">CoprHD 2.4 + ScaleIO</a></li>
 		<li><a href="https://github.com/curtbruns/coprhd_aio/tree/devstack-integration" target="_blank">CoprHD 2.4 + ScaleIO + DevStack</a></li>
   </ul>
 
 	<h2>Build from source</h2>
-	<p>Recommended for more experienced users. Right now it's only confirmed to work on OpenSuSE,
-		although there are reports in the wild of running CoprHD on Ubuntu.
+	<p>Recommended for more experienced developers who don't want to use a vagrant based virtual machine or appliance. Right now it's only confirmed to work on OpenSuSE,
+		although there are reports in the wild of running CoprHD on Ubuntu. 
 		<ul>
 			<li><a href="https://coprhd.atlassian.net/wiki/display/COP/How+to+Download+and+Build+CoprHD" target="_blank">Build and run CoprHD</a></li>
     </ul>
 
 	<h2>Install RPM for OpenSUSE</h2>
-	<p>This is only slightly less work than building from source, because you still have the same dependencies to install from the steps above. Right now we only know how to build RPMs for OpenSUSE 13.x. If you'd like to take a look at using it with other operating systems, we'd like to hear from you.</p>
+	<p>Recommended for experienced users who don't want to use a vagrant based virtual machine or appliance. This is only slightly less work than building from source, because you still have the same dependencies to install from the steps above. Right now we only know how to build RPMs for OpenSUSE 13.x. If you'd like to take a look at using it with other operating systems, we'd like to hear from you.</p>
 	<ul>
 		<li><a href="https://build.coprhd.org/jenkins/userContent/releases/CoprHD-2.4.0.0.4/" target="_blank">Download the RPM</a></li>
 	</ul>
